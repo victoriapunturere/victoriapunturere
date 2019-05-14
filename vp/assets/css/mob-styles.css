@@ -1,0 +1,111 @@
+/*Mobile styles*/
+
+@media only screen and (max-width: 1120px)  {
+
+.header-menu {
+  width: 100%;
+}
+
+.footer-project-description , .information-text {
+  padding: 0 30px 25px 30px;
+}
+
+}
+
+
+@media only screen and (max-width: 950px)  {
+
+  .slideshow-container {
+    margin-top: 25vh;
+  }
+
+}
+
+
+@media only screen and (max-width: 800px)  {
+
+
+/*HOME PAGE*/
+
+.col_1of2 , .col_1of3{
+  flex: 0 0 100%;
+}
+
+.spacer , .spacer2 , .spacer3 {
+  padding: 0 4% 0 4%;
+  margin: 0 auto !important;
+}
+
+.spacer2 , .spacer3 {
+  width: 100%;
+}
+
+.row2 , .feastbound-image {
+  margin-top: 0px !important;
+}
+
+html {
+  font-size: 13px;
+}
+
+.body-container , .information-container {
+  margin-top: 15%;
+  margin-bottom: 0;
+}
+
+.header-menu , .header-link:hover {
+  font-size: 1.1rem;
+}
+
+.header-info , .header-home {
+  font-size: 1.4rem;
+}
+
+
+
+/*PROJECTS PAGE*/
+.counter {
+  width: 100%;
+  top: 80%;
+  right: 0;
+  text-align: center;
+  display: none;
+}
+
+.image-spacer {
+  height: 60vw;
+}
+
+.slideshow-container {
+  margin-top: 18vh;
+}
+
+}
+
+@media only screen and (max-width: 700px)  {
+
+.footer-project-description {
+  display: block;
+
+}
+
+.footer-project-description.hideme {
+  display: none;
+
+}
+
+}
+
+
+/* @media only screen and (max-width: 420px)  {
+
+.header-title {
+  display: none;
+}
+
+.header-info , .header-home {
+  padding-top: 5px;
+  display: inline-block;
+}
+
+} */
