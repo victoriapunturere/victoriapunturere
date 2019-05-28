@@ -10,6 +10,7 @@
   background-color: white;
   position: fixed;
   border-top: 1px solid black;
+  /* cursor: pointer; */
 
   display: flex;
   align-items: flex-start;
@@ -28,11 +29,16 @@
   cursor: pointer;
 }
 
+.footer-project-title:hover {
+  filter: blur(1.5px);
+}
+
 .footer-project-description {
   width: 100%;
   padding: 0 300px 25px 300px;
   text-align: justify;
-
+  max-height: 20vh;
+  overflow-y: scroll;
   display: none;
 
 }
@@ -63,7 +69,6 @@
   width: 100%;
   height: 50%;
   margin-top: 14vh;
-
 }
 
 .slideshow-item img {
