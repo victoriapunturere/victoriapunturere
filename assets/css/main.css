@@ -129,6 +129,7 @@ a {
   /* opacity: 0.7; */
   filter: blur(7px);
   cursor: pointer !important;
+  cursor: hand !important;
 }
 
 .project-image-title-container {

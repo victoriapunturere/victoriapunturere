@@ -73,6 +73,7 @@
 
 .slideshow-item img {
   cursor: pointer !important;
+  cursor: hand !important;
 }
 
 /* .slideshow-items {
