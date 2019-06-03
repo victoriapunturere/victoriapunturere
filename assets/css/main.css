@@ -1,11 +1,11 @@
+/** CATCH ALL **/
+
 * {
   padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
 
-
-/** CATCH ALL **/
 
 html {
   font-size: 16px;
@@ -32,20 +32,20 @@ a {
 }
 
 .body-container {
-  margin-top: 14vh;
+  margin-top: 110px;
   margin-bottom: 20px;
 }
 
 /** HEADER **/
 
 .header-container {
-    top: 30px;
-    width:100%;
-    overflow:hidden;
-    display:block;
-    text-align: center;
-    position: fixed;
-    z-index: 9999;
+  top: 30px;
+  width:100%;
+  overflow:hidden;
+  display:block;
+  text-align: center;
+  position: fixed;
+  z-index: 9999;
 }
 
 .header-menu {
@@ -109,22 +109,20 @@ a {
 }
 
 .spacer2 {
-    display: block;
-    margin: 0 auto;
-    width: 50%;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
 }
 
 .spacer3 {
-    margin-top: 100px !important;
-    margin-left: 100px !important;
+  padding: 0 70px 0 70px;
+  margin-top: 100px !important;
 }
 
 
 .spacer img , .spacer3 img {
   max-width: 100% !important;
 }
-
-
 
 
 .image-link:hover {
@@ -144,29 +142,31 @@ a {
   font-size: .6rem;
 }
 
-/* .project-image-title-container {
-  text-transform: uppercase;
-  text-align: center;
+.biomicro-image {
+  margin-top: 40px !important;
+}
 
-  font-family: titling-gothic-fb-extended, arial, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1rem;
-} */
+.senescenza-image {
+  margin-top: 10px;
+}
 
-.feastbound-image {
-  margin-top: 200px !important;
+.senescenza-image , .senescenza-title {
+  width: 80%;
 }
 
 .self_harvest-title , .invitro-title , .else-title , .elodea-title ,
-.feastbound-title , .scenescenza-title , .biomicro-title {
+.feastbound-title , .senescenza-title , .biomicro-title {
   opacity: 0;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 
 .self_harvest-title.showme , .invitro-title.showme , .else-title.showme , .elodea-title.showme ,
-.feastbound-title.showme , .scenescenza-title.showme , .biomicro-title.showme {
+.feastbound-title.showme , .senescenza-title.showme , .biomicro-title.showme {
   opacity: 1;
 }
+
+
 
 /*** IMAGE ALIGNMENT ***/
 
@@ -184,26 +184,22 @@ a {
 
 
 
-
-
 /*** INFO PAGE ***/
 
 .information-container {
   width: 100%;
-  margin-top: 14vh;
+  margin-top: 110px;
   text-align: center;
   position: fixed;
-
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
-
 }
 
 .information-text {
-  width: 100%;
-  padding: 0 300px 25px 300px;
+  width: 70%;
   text-align: justify;
+  margin: 0 auto;
 }
 
 .contact-text {

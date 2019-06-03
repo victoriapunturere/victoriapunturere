@@ -48,8 +48,8 @@ $('.feastbound-image').hover(function() {
 
 });
 
-$('.scenescenza-image').hover(function() {
-    $('.scenescenza-title').toggleClass('showme');
+$('.senescenza-image').hover(function() {
+    $('.senescenza-title').toggleClass('showme');
 
 });
 
